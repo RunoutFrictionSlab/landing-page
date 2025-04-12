@@ -90,27 +90,43 @@ li {
 /* information section */
 
 .information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 
 .information-section-title {
-
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
 }
 
 .information-section-content {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: auto;
 }
 
 .information-block {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: auto;
 }
 
 .information-block-image {
-    width: 100px;
-    height: 100px;
-    border: 2px, blue;
+    width: 150px;
+    height: 150px;
+    border: solid, 5px, lightblue;
+    border-radius: 15px;
 
+}
+
+.block-text {
+    text-align: center;
 
 }
 
