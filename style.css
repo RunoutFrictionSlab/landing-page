@@ -1,25 +1,21 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.information-section, .signup-section {
-    background-color: white;
-}
-
 .content {
     display: flex;
     flex-direction: column;
     flex: 1;
-    
 }
 
 .content > * {
     flex-grow: 1;
 }
+
 .hero-section, .information-section, .quote-section, .signup-section {
     padding: 0px 96px 0px 96px;
 }
