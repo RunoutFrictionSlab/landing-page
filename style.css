@@ -156,7 +156,47 @@ li {
 
 }
 
+/* signup section */
 
+.signup-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+.signup-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 64px;
+    
+}
+
+.signup-block-title {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.signup-block-subtext {
+
+}
+
+.signup-block-button {
+    border: solid 2px white;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    text-align: center;
+}
 
 
 .hero-section, footer{
